@@ -1,0 +1,168 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #BEADFA;
+    padding-top: 10px;
+    z-index: 1000;
+
+    .title-header {
+        color: #FFFFFF;
+        font-weight: 30px;
+        padding: 8px 16px;
+        display: inline-block;
+    }
+    .navbar{
+        display: flex; justify-content: center; align-items: center;
+    }
+}
+
+nav ul .search-box {
+    width: 120px;
+    height: 10px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+nav ul .search-box:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav .black-border {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+section {
+    padding: 100px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#about {
+    background-color: #8E8FFA;
+    height: 363px;
+}
+
+#about h1 {
+    font-size: xx-large;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 81px;
+    text-align: center;
+}
+
+#about h3 {
+    /* Cupcake ipsum dolor sit amet macaroon oat cake. */
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+#about p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+    /* Macaroon muffin sugar plum tiramisu cheesecake marshmallow ice cream gingerbread pie. Dessert gummies apple pie gummi bears danish sweet roll. Candy sesame snaps carrot cake tootsie roll sugar plum gummi bears croissant. */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+
+#shop {
+    background-color: black;
+    color: white;
+    height: 157px;
+}
+
+#shop h1 {
+    font-size: xx-large;
+}
+
+#contact {
+    background-color: #C780FA;
+    height: 563px;
+}
+
+#contact h1 {
+    font-size: xx-large;
+}
+
+#contact .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+#contact .image-box {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact .image-box img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 158px;
+    height: 158px;
+    object-fit: cover;
+}
+
+#contact .image-box p {
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
