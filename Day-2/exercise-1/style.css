@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* font-family: 'Mulish', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
@@ -33,14 +34,10 @@ nav ul {
 }
 
 /* Check list link style */
-nav ul li a {
-
-}
+nav ul li a {}
 
 /* Make text bold on hover */
-nav ul li a:hover {
-  
-}
+nav ul li a:hover {}
 
 
 main {
@@ -56,12 +53,11 @@ main {
 }
 
 /* Check font styling */
-.text h1 span {
-}
+.text h1 span {}
 
 /* Check font styling */
 .text p {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Check font styling and make sure the button is rounded */
@@ -72,12 +68,11 @@ main {
 }
 
 /* Handle when user hover on the button */
-.text button:hover {
-}
+.text button:hover {}
 
 /* Check the text styling */
 footer {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Check the text styling */
@@ -92,4 +87,3 @@ footer a {
   bottom: 0px;
   right: 0px;
 }
-
